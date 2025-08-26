@@ -2,7 +2,7 @@
 some scenarios.
 Find code in different folders.
 
-···
+```
 
 python_ml_cnn/
 ├── image_classification/
@@ -14,4 +14,4 @@ python_ml_cnn/
     ├── yolo_shapes/
     └── yolo_yellow_car/
 
-···
+```
