@@ -1,5 +1,6 @@
 # ML_CNN
-some scenarios 
+some scenarios.
+Find code in different folders.
 
 # Image classification.
 ## Custom CNN to recognize number
