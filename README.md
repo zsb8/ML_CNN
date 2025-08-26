@@ -4,16 +4,20 @@ some scenarios
 # Image classification.
 ## Custom CNN to recognize number
 Build a custom convolutional neural network to recognize which digit it is.
+<img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/092dcfb8-6d51-4e51-9057-ca54e07dd92a" />
 
 ## Alexnet
 Build a custom Alexnet to recognize which digit it is.
+<img width="940" height="865" alt="image" src="https://github.com/user-attachments/assets/45520c63-fa6e-484a-ae41-baba800da908" />
 
 ## Alexnet PyTorch pretrained
 Use models.alexnet(pretrained=True) to recognize which digit it is.
+<img width="561" height="316" alt="image" src="https://github.com/user-attachments/assets/5af9486c-f947-457b-a618-b1cadd820d6b" />
 
 # Object detection
 
 ## YOLO detect triangle, rectangle, circle
+<img width="940" height="366" alt="image" src="https://github.com/user-attachments/assets/ade8bb2c-df98-488f-96df-503477a0f59c" />
 
 
 ## YOLO detect yellow car
