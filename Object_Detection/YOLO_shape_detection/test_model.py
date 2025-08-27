@@ -15,10 +15,10 @@ def test_with_same_data():
         print(f"\n--- Test image {i+1}: {img_file} ---")
         results = model.predict(
             source=img,
-            conf=0.1,      # 低置信度阈值
-            imgsz=640,     # 图像尺寸
+            conf=0.1,      # Low confidence threshold
+            imgsz=640,     # Image size
             device='cpu', 
-            verbose=True  # 显示详细信息
+            verbose=True  # Show detailed information
         )
         result = results[0]
 
