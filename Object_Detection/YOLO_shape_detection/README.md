@@ -4,7 +4,8 @@ First , run  `create_data.py` to create 100 images to train.
 
 Then run `quick_train.py` to train model.
 <img width="940" height="419" alt="image" src="https://github.com/user-attachments/assets/41c19679-6035-47b7-a7e2-9ec4e7f7498a" />
-<img width="940" height="361" alt="image" src="https://github.com/user-attachments/assets/62040daf-ec80-4761-bb8c-b2db6592c6d5" />
+<img width="2000" height="1628" alt="image" src="https://github.com/user-attachments/assets/c6f15795-55da-4ef2-8b3e-88801250732c" />
+
 
 Then, place several 640x640 jpg images in the test_image directory.
 Then run test_model.py to test whether the blocks in the images are triangles, circles, or squares.
