@@ -1,5 +1,7 @@
 
 ## Custom CNN to recognize number
+Use Depthwise Separable Convolution.    
+Depthwise Separable Convolution is used to improve the efficiency of CNN and significantly speed up the training process.
 
 Download dataset MNIST.     
 Run `download_dataset.py`
@@ -9,18 +11,14 @@ What is the MNIST?  https://en.wikipedia.org/wiki/MNIST_database
 Build a custom convolutional neural network to recognize which digit it is.
 <img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/092dcfb8-6d51-4e51-9057-ca54e07dd92a" />
 
-The net class is this `net_class.py`:       
-<img width="2646" height="1048" alt="image" src="https://github.com/user-attachments/assets/26953047-fbaa-42a4-a372-d8bdcd08064a" />
-
 
 Run `main_train_save_model.py` to train a modle, name best_model.pth in root folder.
-<img width="582" height="800" alt="image" src="https://github.com/user-attachments/assets/db3bddf9-88ec-482e-a6f9-fdea8862c158" />
+<img width="2164" height="1406" alt="image" src="https://github.com/user-attachments/assets/989e2c92-4a1b-4db7-82a4-ccbe23c63681" />
+The best_model.pth is small.
+<img width="1542" height="502" alt="image" src="https://github.com/user-attachments/assets/2b217776-a9fd-4f66-8c32-53e439d042f2" />
 
 
-Test modle.     
-Run `main_test_model.py`
-<img width="2166" height="148" alt="image" src="https://github.com/user-attachments/assets/7fc3ebb4-2e8f-4efe-ab22-d87a0992611f" />
-
-Recognize a number, such as 3.       
+Recognize a number, such as 2.       
 Run `identify_number.py`
-<img width="1888" height="1954" alt="image" src="https://github.com/user-attachments/assets/3eb8393e-8042-4727-8ff2-47b40ed03efa" />
+<img width="2248" height="1742" alt="image" src="https://github.com/user-attachments/assets/0888d53f-e55a-4b03-93b9-390f71633dc8" />
+
