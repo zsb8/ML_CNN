@@ -12,6 +12,10 @@ The net class is this:
 <img width="2646" height="1048" alt="image" src="https://github.com/user-attachments/assets/26953047-fbaa-42a4-a372-d8bdcd08064a" />
 
 
+Run main_train_save_model.py to train a modle, name best_model.pth in root folder.
+<img width="582" height="800" alt="image" src="https://github.com/user-attachments/assets/db3bddf9-88ec-482e-a6f9-fdea8862c158" />
+
+
 Test modle. Run main_test_model.py
 <img width="2166" height="148" alt="image" src="https://github.com/user-attachments/assets/7fc3ebb4-2e8f-4efe-ab22-d87a0992611f" />
 
