@@ -12,6 +12,7 @@ Then, place two 640x640 jpg images in the test_image directory.
 
 Then run `test_model.py` to test whether the blocks in the images are triangles, circles, or squares.      
 Then, we see that they are recognized.       
-<img width="940" height="366" alt="image" src="https://github.com/user-attachments/assets/7aaf1955-2e6b-48ae-b444-3d0b7a1d11b5" />
+<img width="2138" height="1920" alt="image" src="https://github.com/user-attachments/assets/e55ddc48-69e6-4633-a9a4-44aa9f48742d" />
+
 
 
