@@ -14,10 +14,7 @@ We use PyTorh Alexnet lib. Code is easier.
 
 Run `main_train_save_model.py` to train a modle, name best_model.pth in root folder.
 Will run more time. 
-
-The modle file `best_model.pth` is very big, about  144M , more the the file Github limit. 
-
-
+<img width="830" height="694" alt="image" src="https://github.com/user-attachments/assets/a0f3e268-dbac-491e-858d-582fdd532688" />
 
 Recognize a number, such as 3.       
 Run `identify_number.py`
