@@ -7,9 +7,9 @@ Then run `quick_train.py` to train model.
 <img width="2000" height="1628" alt="image" src="https://github.com/user-attachments/assets/c6f15795-55da-4ef2-8b3e-88801250732c" />
 
 
-Then, place several 640x640 jpg images in the test_image directory.
-Then run test_model.py to test whether the blocks in the images are triangles, circles, or squares.
-Then, we see that they are recognized.
+Then, place several 640x640 jpg images in the test_image directory.     
+Then run test_model.py to test whether the blocks in the images are triangles, circles, or squares.      
+Then, we see that they are recognized.       
 <img width="940" height="366" alt="image" src="https://github.com/user-attachments/assets/7aaf1955-2e6b-48ae-b444-3d0b7a1d11b5" />
 
 
