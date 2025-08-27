@@ -1,7 +1,4 @@
-import os
-import torch
 from ultralytics import YOLO
-from load_data import prepare_yolo_dataset
 
 
 def train_yolo_model(yaml_path="./data/dataset.yaml"):
@@ -9,12 +6,12 @@ def train_yolo_model(yaml_path="./data/dataset.yaml"):
     model = YOLO("yolov8n.pt")
     # Training parameters
     train_args = {
-        'data': yaml_path,           # Use prepared config file
+        'data': yaml_path,         # Use prepared config file
         'epochs': 5,               # Number of training epochs
         'imgsz': 640,              # Image size
         'batch': 8,                # Batch size
         'device': 'cpu',           # Use CPU
-        'lr0': 0.01,              # Learning rate
+        'lr0': 0.01,               # Learning rate
         'patience': 10,            # Early stopping patience
         'save': True,              # Save model
         'project': './runs',       # Project directory
@@ -35,18 +32,7 @@ def train_yolo_model(yaml_path="./data/dataset.yaml"):
         print("✅ Model training completed")
         print("📁 Training results: ./runs/quick_train/")
         print("📁 Dataset: ./data/images/ and ./data/labels/")
-        print("💡 You can now use the trained model for inference")       
-
-        # ✅ Training completed! Model saved at: runs\quick_train
-        # 📊 Training results:
-        # - Best model: runs\quick_train/weights/best.pt
-        # - Latest model: runs\quick_train/weights/last.pt
-
-        # === Summary ===
-        # ✅ YOLO format dataset preparation completed
-        # ✅ Model training completed
-        # 📁 Training results: ./runs/quick_train/
-        # 📁 Dataset: ./data/images/ and ./data/labels/
+        print("💡 You can now use the trained model for inference")
 
     except Exception as e:
         print(f"❌ Training failed: {e}")

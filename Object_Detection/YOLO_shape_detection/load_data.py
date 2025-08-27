@@ -1,13 +1,8 @@
 
 import os
-import urllib.request
-import zipfile
-import json
 import random
 from PIL import Image, ImageDraw
-import torch
 from torch.utils.data import Dataset
-from torchvision.datasets import VOCDetection
 
 class SyntheticDetectionDataset(Dataset):
     """

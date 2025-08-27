@@ -1,5 +1,5 @@
 # YOLO dataset config
-        path: D:\test2\data
+        path: D:\test2_identity_object_YOLO_triangle_cycle_rectangle\data
         train: images
         val: images
 
