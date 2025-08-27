@@ -59,11 +59,11 @@ def train_model(trainloader):
                 print(f"[Epoch {epoch + 1}, Batch {i + 1}] loss: {running_loss / 100:.3f}")
                 running_loss = 0.0
         
-        # 计算整个epoch的平均损失
+        # Calculate the average loss of the entire epoch
         avg_loss = running_loss / len(trainloader)
         
-        # 在训练集上计算准确率
-        net.eval()  # 切换到评估模式
+        # Calculate the accuracy on the training set
+        net.eval()  # switch to eval mode
         correct = 0
         total = 0
         with torch.no_grad():
@@ -79,7 +79,7 @@ def train_model(trainloader):
         print(f"Average training loss: {avg_loss:.3f}")
         print(f"Training accuracy: {accuracy:.2f}%")
         
-        # 保存准确率最高的模型
+        # save the best model
         if accuracy > best_accuracy:
             best_accuracy = accuracy
             best_epoch = epoch + 1
