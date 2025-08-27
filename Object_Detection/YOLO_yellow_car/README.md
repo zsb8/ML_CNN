@@ -6,6 +6,10 @@ The YOLOv8 image recognition model is used for fast and accurate target detectio
 When you run CLIP for the first time, the model file will be automatically downloaded from Huggingface. When deploying on the cloud, you must be careful about the read and write permissions.
 <img width="940" height="234" alt="image" src="https://github.com/user-attachments/assets/c1085665-83ca-4921-8436-47abc4998868" />
 
+Run the model, find top n similar cars. 
+<img width="2142" height="1862" alt="image" src="https://github.com/user-attachments/assets/be545590-d334-4125-b41e-b5c841ccc2bd" />
+
+
 Results: The search for yellow vehicles successfully detected the three yellow vehicles with the highest matching scores.
 <img width="940" height="653" alt="image" src="https://github.com/user-attachments/assets/1c66e060-e8f3-4077-91df-ff578fe5bf55" />
 
