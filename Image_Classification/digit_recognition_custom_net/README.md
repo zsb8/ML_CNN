@@ -1,7 +1,7 @@
 
 ## Custom CNN to recognize number
 
-Download dataset MNIST. Run download_dataset.py
+Download dataset MNIST. Run `download_dataset.py`
 What is the MNIST?  https://en.wikipedia.org/wiki/MNIST_database
 <img width="2520" height="1310" alt="image" src="https://github.com/user-attachments/assets/46131058-79fc-426f-97c1-061edaec94fc" />
 
