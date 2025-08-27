@@ -16,6 +16,8 @@ The net class is this `net_class.py`:
 Run `main_train_save_model.py` to train a modle, name best_model.pth in root folder.
 Will run more time. 
 <img width="2016" height="1918" alt="image" src="https://github.com/user-attachments/assets/21f7ad27-f156-4da4-9ca0-9a51c82cdd9d" />
+The modle file `best_model.pth` is very big, about  144M , more the the file Github limit. 
+<img width="1516" height="622" alt="image" src="https://github.com/user-attachments/assets/aa069901-c391-4e02-a335-69a7d80e53c4" />
 
 
 Recognize a number, such as 3.       
