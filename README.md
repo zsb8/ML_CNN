@@ -9,6 +9,7 @@ python_ml_cnn/
 │   ├── digit_custom_net/
 │   ├── digit_alexnet_custom/
 │   └── digit_alexnet_pytorch/
+│   └── digit_recognition_Depthwise_Separable_Convolution/
 │
 └── object_detection/
     ├── yolo_shapes/
