@@ -11,3 +11,6 @@ Build a custom convolutional neural network to recognize which digit it is.
 Test modle. Run main_test_model.py
 <img width="2166" height="148" alt="image" src="https://github.com/user-attachments/assets/7fc3ebb4-2e8f-4efe-ab22-d87a0992611f" />
 
+Recognize a number, such as 3.     
+Run identify_number.py
+<img width="1888" height="1954" alt="image" src="https://github.com/user-attachments/assets/3eb8393e-8042-4727-8ff2-47b40ed03efa" />
