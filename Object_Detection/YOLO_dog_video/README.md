@@ -12,9 +12,9 @@ Use OpenCV to process video.
 When you run CLIP for the first time, the model file will be automatically downloaded from Huggingface. When deploying on the cloud, you must be careful about the read and write permissions.
 <img width="940" height="234" alt="image" src="https://github.com/user-attachments/assets/c1085665-83ca-4921-8436-47abc4998868" />
 
-After run `main.py`, 
+After run `main.py`,      
 <img width="574" height="338" alt="image" src="https://github.com/user-attachments/assets/3b3b90cb-f297-4e4f-ab6a-c1e51ad32f1f" />
-Output `Video_data\Animal_filtered.mp4`
+Output `Video_data\Animal_filtered.mp4`      
 <img width="575" height="288" alt="image" src="https://github.com/user-attachments/assets/58cae7fd-42f3-4be2-96d3-dd216bf535cd" />
      
 In the MP4 result file, detect the dogs.
