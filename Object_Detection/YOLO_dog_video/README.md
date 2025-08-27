@@ -14,4 +14,4 @@ Find green car in the other test image.
 Find black cars in the other test image.   
 <img width="1816" height="1052" alt="582b0de0094f35740e0c6f5a6ca2aab3" src="https://github.com/user-attachments/assets/02be36d0-b6ad-44c4-8807-1c32570f9cec" />
 Find blue cars in the other test image.  
-![Uploading b3aef8065e2f949e16882ac525a0fe58.png…]()
+<img width="1850" height="1062" alt="b3aef8065e2f949e16882ac525a0fe58" src="https://github.com/user-attachments/assets/c4243911-da32-4f9e-b915-1de09b7ef479" />
