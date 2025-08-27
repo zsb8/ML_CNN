@@ -1,0 +1,9 @@
+# YOLO dataset config
+        path: D:\test2\data
+        train: images
+        val: images
+
+        # Classes
+        nc: 3
+        names: ['circle', 'rectangle', 'triangle']
+        

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/test2/runs/mlflow/568911751161516577/82d34d5db5b64093a9680eccb670f069/artifacts
+end_time: 1756087973307
+entry_point_name: ''
+experiment_id: '568911751161516577'
+lifecycle_stage: active
+run_id: 82d34d5db5b64093a9680eccb670f069
+run_name: quick_train
+run_uuid: 82d34d5db5b64093a9680eccb670f069
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756087819971
+status: 3
+tags: []
+user_id: zsb
